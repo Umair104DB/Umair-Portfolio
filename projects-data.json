@@ -1,0 +1,516 @@
+[
+  {
+    "num": 1,
+    "title": "AI Data Analyst",
+    "url": "https://github.com/Umair104DB/AI-Data-Analyst",
+    "desc": "Ask questions about uploaded CSV and Excel data in natural language and receive AI-assisted analysis.",
+    "purpose": "Ask questions about uploaded CSV and Excel data in natural language and receive AI-assisted analysis.",
+    "features": [
+      "Upload CSV and XLSX files",
+      "Preview rows and inspect column names",
+      "Basic type conversion and date parsing",
+      "Ask questions in natural language",
+      "Use DuckDB SQL and Pandas tools through an Agno agent",
+      "Display the agent response in Streamlit"
+    ],
+    "workflow": "Upload dataset → Prepare data → Ask a question → AI agent uses data tools → View answer",
+    "tech": [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "DuckDB",
+      "Agno",
+      "OpenAI GPT-4o"
+    ],
+    "limitations": "Requires an OpenAI API key and internet access. It performs basic preprocessing, not full data cleaning. It does not currently include a dedicated visualization dashboard, downloadable reports, or automated model training.",
+    "slug": "ai-data-analyst",
+    "image": "assets/projects/ai-data-analyst.png"
+  },
+  {
+    "num": 2,
+    "title": "Automated File Organizer & Batch PDF Report Generator",
+    "url": "https://github.com/Umair104DB/Automated-Organizer-Reports",
+    "desc": "Sort files into extension-based folders and produce a PDF inventory report with a reversible move record.",
+    "purpose": "Sort files into extension-based folders and produce a PDF inventory report with a reversible move record.",
+    "features": [
+      "Preview planned file moves with dry-run mode",
+      "Categorize files by extension",
+      "Protect against duplicate destination names",
+      "Organize local folders through CLI or uploaded files through Streamlit",
+      "Save a JSON manifest for undo",
+      "Generate PDF summary with category totals and file details"
+    ],
+    "workflow": "Select source files → Preview organization plan → Move into categories → Save undo manifest → Generate PDF report",
+    "tech": [
+      "Python",
+      "pathlib",
+      "shutil",
+      "JSON",
+      "Streamlit",
+      "ReportLab"
+    ],
+    "limitations": "Review the preview before applying file moves. Test on copies of important files first.",
+    "slug": "automated-file-organizer-batch-pdf-report-generator",
+    "image": "assets/projects/automated-file-organizer-batch-pdf-report-generator.png"
+  },
+  {
+    "num": 3,
+    "title": "Credit Scoring Machine Learning",
+    "url": "https://github.com/Umair104DB/Credit-Scoring-Model",
+    "desc": "Demonstrate an educational credit-risk classification workflow using applicant data and a Random Forest model.",
+    "purpose": "Demonstrate an educational credit-risk classification workflow using applicant data and a Random Forest model.",
+    "features": [
+      "Inspect applicant records",
+      "Prepare classification features",
+      "Train and evaluate a Random Forest classifier",
+      "Enter example applicant details",
+      "Display a predicted risk category",
+      "Explore results in a Streamlit interface"
+    ],
+    "workflow": "Load applicant data → Prepare features → Train Random Forest → Evaluate model → Predict risk category",
+    "tech": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Random Forest",
+      "Streamlit",
+      "Matplotlib"
+    ],
+    "limitations": "Uses synthetic sample data. It is an educational demonstration and must not be used for real loan decisions or financial advice.",
+    "slug": "credit-scoring-machine-learning",
+    "image": "assets/projects/credit-scoring-machine-learning.png"
+  },
+  {
+    "num": 4,
+    "title": "Customer Insight Pro",
+    "url": "https://github.com/Umair104DB/Customer-Insight-Pro",
+    "desc": "Explore customer churn patterns and estimate customer-level churn risk through an interactive dashboard.",
+    "purpose": "Explore customer churn patterns and estimate customer-level churn risk through an interactive dashboard.",
+    "features": [
+      "KPI overview and churn visualizations",
+      "Interactive customer filters",
+      "Export filtered data to CSV",
+      "Customer-level risk scoring form",
+      "Held-out evaluation metrics",
+      "Confusion matrix for model evaluation"
+    ],
+    "workflow": "Load customer data → Explore churn KPIs → Filter customer records → Score a customer → Review evaluation metrics",
+    "tech": [
+      "Python",
+      "Pandas",
+      "Plotly",
+      "Streamlit",
+      "Scikit-learn"
+    ],
+    "limitations": "The repository documents demo-data and model limitations. Risk scores are model estimates, not guarantees about an individual customer.",
+    "slug": "customer-insight-pro",
+    "image": "assets/projects/customer-insight-pro.png"
+  },
+  {
+    "num": 5,
+    "title": "Interactive Data Visualization Dashboard",
+    "url": "https://github.com/Umair104DB/Data-Visualization-Dashboard",
+    "desc": "Turn sales records into interactive business summaries, charts, filters, and downloadable data.",
+    "purpose": "Turn sales records into interactive business summaries, charts, filters, and downloadable data.",
+    "features": [
+      "Load included 100-row sales CSV",
+      "Filter records by region",
+      "Calculate revenue, units sold, and order KPIs",
+      "Compare revenue by product",
+      "View regional revenue share",
+      "Explore daily revenue trends and export filtered CSV"
+    ],
+    "workflow": "Load sales CSV → Choose region filter → Calculate KPIs → Explore charts → Export filtered data",
+    "tech": [
+      "Python",
+      "Pandas",
+      "Plotly Express",
+      "Streamlit"
+    ],
+    "limitations": "The included sales figures are illustrative sample data, not actual company performance.",
+    "slug": "interactive-data-visualization-dashboard",
+    "image": "assets/projects/interactive-data-visualization-dashboard.png"
+  },
+  {
+    "num": 6,
+    "title": "Disease Prediction from Medical Data",
+    "url": "https://github.com/Umair104DB/Disease-Prediction-Model",
+    "desc": "Demonstrate a machine learning classification workflow using structured sample health-related attributes.",
+    "purpose": "Demonstrate a machine learning classification workflow using structured sample health-related attributes.",
+    "features": [
+      "Load structured sample patient data",
+      "Prepare input features",
+      "Train and evaluate a classifier",
+      "Explore predictions through Streamlit",
+      "Review model metrics and visual summaries"
+    ],
+    "workflow": "Load sample records → Prepare features → Train classifier → Evaluate results → Explore prediction",
+    "tech": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Streamlit",
+      "Matplotlib"
+    ],
+    "limitations": "Synthetic data and predictions are educational only. This project is not suitable for diagnosis, treatment, or clinical decisions.",
+    "slug": "disease-prediction-from-medical-data",
+    "image": "assets/projects/disease-prediction-from-medical-data.png"
+  },
+  {
+    "num": 7,
+    "title": "Handwritten Digit Recognition",
+    "url": "https://github.com/Umair104DB/Handwritten-Character-Recognition",
+    "desc": "Classify handwritten digits from image pixel features using a Scikit-learn neural-network classifier.",
+    "purpose": "Classify handwritten digits from image pixel features using a Scikit-learn neural-network classifier.",
+    "features": [
+      "Load grayscale handwritten digit samples",
+      "Convert image pixels into numerical feature vectors",
+      "Train an MLP neural-network classifier",
+      "Evaluate model predictions",
+      "Display sample digit images and results"
+    ],
+    "workflow": "Load digit images → Flatten pixel values → Train MLP classifier → Evaluate predictions → Display digit results",
+    "tech": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "MLPClassifier",
+      "Matplotlib",
+      "Streamlit"
+    ],
+    "limitations": "The included Scikit-learn digits dataset uses 8×8 images of digits 0 to 9. It is not full alphabet recognition or production OCR.",
+    "slug": "handwritten-digit-recognition",
+    "image": "assets/projects/handwritten-digit-recognition.png"
+  },
+  {
+    "num": 8,
+    "title": "NLP Sentiment Analysis",
+    "url": "https://github.com/Umair104DB/NLP-Sentiment-Analysis",
+    "desc": "Classify text reviews into sentiment labels using TF-IDF features and Logistic Regression.",
+    "purpose": "Classify text reviews into sentiment labels using TF-IDF features and Logistic Regression.",
+    "features": [
+      "Load labelled review examples",
+      "Convert text into TF-IDF features",
+      "Train Logistic Regression model",
+      "Show sentiment distribution",
+      "Predict sentiment for entered text",
+      "Display classification report and test accuracy"
+    ],
+    "workflow": "Load labelled reviews → Vectorize text → Train classifier → Evaluate model → Predict new review",
+    "tech": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "TF-IDF",
+      "Logistic Regression",
+      "Streamlit",
+      "Plotly"
+    ],
+    "limitations": "The repository uses short synthetic review examples. Results should not be treated as representative public opinion.",
+    "slug": "nlp-sentiment-analysis",
+    "image": "assets/projects/nlp-sentiment-analysis.png"
+  },
+  {
+    "num": 9,
+    "title": "Personal Expense & Budget Management App",
+    "url": "https://github.com/Umair104DB/Personal-Expense-Budget-Manager",
+    "desc": "Record personal income and expenses, set monthly category budgets, and review balances in a Flask web app.",
+    "purpose": "Record personal income and expenses, set monthly category budgets, and review balances in a Flask web app.",
+    "features": [
+      "Add income and expense transactions",
+      "Assign category, date, and optional description",
+      "Create or update monthly category budgets",
+      "View monthly income, expenses, and remaining balance",
+      "Delete transaction records",
+      "Export transactions to CSV",
+      "Store records with SQLAlchemy and SQLite by default"
+    ],
+    "workflow": "Record transaction → Save to database → Set monthly budgets → Review monthly balance → Export CSV",
+    "tech": [
+      "Python",
+      "Flask",
+      "Flask-SQLAlchemy",
+      "SQLite",
+      "PostgreSQL-compatible configuration"
+    ],
+    "limitations": "The current app has no login or user-level data separation. Add authentication, CSRF protection, secure configuration, and persistent backups before using real sensitive financial data.",
+    "slug": "personal-expense-budget-management-app",
+    "image": "assets/projects/personal-expense-budget-management-app.png"
+  },
+  {
+    "num": 10,
+    "title": "Basic Rule-Based Chatbot",
+    "url": "https://github.com/Umair104DB/Python-Chatbot",
+    "desc": "Create a simple command-line chatbot that matches user messages to predefined rules and returns conversational replies.",
+    "purpose": "Create a simple command-line chatbot that matches user messages to predefined rules and returns conversational replies.",
+    "features": [
+      "Accept text messages",
+      "Normalize user input",
+      "Match predefined keywords or patterns",
+      "Return a matching response",
+      "Provide a fallback response",
+      "Continue conversation until exit"
+    ],
+    "workflow": "Enter message → Normalize text → Match a rule → Return response → Continue or exit",
+    "tech": [
+      "Python",
+      "Functions",
+      "Conditionals",
+      "Loops",
+      "String processing",
+      "Console I/O"
+    ],
+    "limitations": "This is a rule-based chatbot. It does not use an LLM or generate open-ended AI responses.",
+    "slug": "basic-rule-based-chatbot",
+    "image": "assets/projects/basic-rule-based-chatbot.png"
+  },
+  {
+    "num": 11,
+    "title": "Exploratory Data Analysis Dashboard",
+    "url": "https://github.com/Umair104DB/Python-Exploratory-Data-Analysis",
+    "desc": "Inspect uploaded tabular data, summarize columns, check data quality, and explore distributions and correlations.",
+    "purpose": "Inspect uploaded tabular data, summarize columns, check data quality, and explore distributions and correlations.",
+    "features": [
+      "Upload a CSV dataset",
+      "Inspect dataset shape, columns, and data types",
+      "Review descriptive statistics",
+      "Check missing values and duplicates",
+      "Explore distributions and correlations",
+      "Display analysis in a Streamlit dashboard"
+    ],
+    "workflow": "Upload CSV → Inspect structure → Check data quality → Review statistics → Explore charts",
+    "tech": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Streamlit"
+    ],
+    "limitations": "Analysis depends on the quality and representativeness of the uploaded dataset. Correlation does not establish causation.",
+    "slug": "exploratory-data-analysis-dashboard",
+    "image": "assets/projects/exploratory-data-analysis-dashboard.png"
+  },
+  {
+    "num": 12,
+    "title": "Python Hangman Game",
+    "url": "https://github.com/Umair104DB/Python-Hangman-Game",
+    "desc": "Build a command-line word guessing game to practise Python fundamentals and input handling.",
+    "purpose": "Build a command-line word guessing game to practise Python fundamentals and input handling.",
+    "features": [
+      "Select a random word",
+      "Display hidden letters",
+      "Accept letter guesses",
+      "Track remaining attempts",
+      "Reveal correctly guessed letters",
+      "Detect win and loss conditions"
+    ],
+    "workflow": "Choose random word → Show hidden letters → Enter a guess → Update game state → Win or lose",
+    "tech": [
+      "Python",
+      "random module",
+      "Functions",
+      "Loops",
+      "Conditional logic",
+      "String handling"
+    ],
+    "limitations": "The game uses a predefined word list unless the source is extended with additional word sources or difficulty options.",
+    "slug": "python-hangman-game",
+    "image": "assets/projects/python-hangman-game.png"
+  },
+  {
+    "num": 13,
+    "title": "Web Scraping with Python and BeautifulSoup",
+    "url": "https://github.com/Umair104DB/Python-Web-Scraping-Beautifulsoup",
+    "desc": "Retrieve permitted public webpage HTML and extract structured information such as headings and links.",
+    "purpose": "Retrieve permitted public webpage HTML and extract structured information such as headings and links.",
+    "features": [
+      "Accept a webpage URL",
+      "Send an HTTP request with Requests",
+      "Parse returned HTML using BeautifulSoup",
+      "Extract headings and links",
+      "Display or export collected information"
+    ],
+    "workflow": "Enter public URL → Fetch HTML → Parse document → Extract headings and links → Review results",
+    "tech": [
+      "Python",
+      "Requests",
+      "BeautifulSoup",
+      "Pandas",
+      "Streamlit"
+    ],
+    "limitations": "Scrape only pages where automated access is permitted. Respect terms of service, robots.txt, rate limits, copyright, and privacy requirements.",
+    "slug": "web-scraping-with-python-and-beautifulsoup",
+    "image": "assets/projects/web-scraping-with-python-and-beautifulsoup.png"
+  },
+  {
+    "num": 14,
+    "title": "Spam Message Guard",
+    "url": "https://github.com/Umair104DB/Spam-Message-Filter",
+    "desc": "Classify text messages as spam or genuine using TF-IDF text features and a Multinomial Naive Bayes model.",
+    "purpose": "Classify text messages as spam or genuine using TF-IDF text features and a Multinomial Naive Bayes model.",
+    "features": [
+      "Interactive message tester",
+      "Filter and inspect dataset records",
+      "Show evaluation metrics and confusion matrix",
+      "Export dataset records to CSV",
+      "Download test predictions",
+      "Present model limitations and safety guidance"
+    ],
+    "workflow": "Load labelled messages → Vectorize text → Train Naive Bayes → Evaluate classifier → Test a new message",
+    "tech": [
+      "Python",
+      "Pandas",
+      "Scikit-learn",
+      "TF-IDF",
+      "Multinomial Naive Bayes",
+      "Plotly",
+      "Streamlit"
+    ],
+    "limitations": "This is a demonstration classifier. Do not rely on it as the only control for security-sensitive message filtering.",
+    "slug": "spam-message-guard",
+    "image": "assets/projects/spam-message-guard.png"
+  },
+  {
+    "num": 15,
+    "title": "Speech Emotion Recognition",
+    "url": "https://github.com/Umair104DB/Speech-Emotion-Recognition",
+    "desc": "Explore audio feature processing for emotion-classification experiments using numerical speech features.",
+    "purpose": "Explore audio feature processing for emotion-classification experiments using numerical speech features.",
+    "features": [
+      "Explore speech audio features",
+      "Use MFCC-style numerical features where implemented",
+      "Prepare feature vectors for classification",
+      "Display demonstration analysis or classifier output"
+    ],
+    "workflow": "Prepare audio features → Extract numerical values → Build feature vectors → Run demonstration analysis → Review output",
+    "tech": [
+      "Python",
+      "Librosa",
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "MFCC",
+      "Streamlit"
+    ],
+    "limitations": "The repository describes illustrative feature rows. Reliable emotion recognition requires real labelled audio, careful validation, and attention to speaker and recording differences.",
+    "slug": "speech-emotion-recognition",
+    "image": "assets/projects/speech-emotion-recognition.png"
+  },
+  {
+    "num": 16,
+    "title": "Stock Portfolio Tracker",
+    "url": "https://github.com/Umair104DB/Stock-Portfolio-Tracker",
+    "desc": "Calculate estimated holding values and total portfolio value from symbols, quantities, and CSV reference prices.",
+    "purpose": "Calculate estimated holding values and total portfolio value from symbols, quantities, and CSV reference prices.",
+    "features": [
+      "Read sample stock prices from CSV",
+      "Enter stock symbols and quantities",
+      "Look up reference prices",
+      "Calculate individual holding values",
+      "Calculate total portfolio value",
+      "Validate entered symbols and quantities"
+    ],
+    "workflow": "Load price CSV → Enter holdings → Match symbols → Calculate holding values → Sum portfolio value",
+    "tech": [
+      "Python",
+      "CSV",
+      "Dictionaries",
+      "Functions",
+      "Input validation"
+    ],
+    "limitations": "Prices are static sample values unless a live market data provider is integrated. This is not investment advice or live market data.",
+    "slug": "stock-portfolio-tracker",
+    "image": "assets/projects/stock-portfolio-tracker.png"
+  },
+  {
+    "num": 17,
+    "title": "Python Task Automation Toolkit",
+    "url": "https://github.com/Umair104DB/Task-Automation-Tools",
+    "desc": "Bundle small Python utilities for organizing image files, extracting email-like strings, and saving webpage titles.",
+    "purpose": "Bundle small Python utilities for organizing image files, extracting email-like strings, and saving webpage titles.",
+    "features": [
+      "Move JPG and JPEG files into an organized folder",
+      "Skip duplicate destination filenames",
+      "Extract unique email-like strings from text files",
+      "Save extracted strings to a text file",
+      "Fetch a public webpage and save its title",
+      "Handle common file and request errors"
+    ],
+    "workflow": "Choose a utility → Provide input → Process files or webpage → Save output → Review result",
+    "tech": [
+      "Python",
+      "pathlib",
+      "os",
+      "shutil",
+      "Regular expressions",
+      "Requests",
+      "BeautifulSoup"
+    ],
+    "limitations": "Test file operations on copies. Extracted email-like strings are not verified addresses or consent to contact. Respect website access rules.",
+    "slug": "python-task-automation-toolkit",
+    "image": "assets/projects/python-task-automation-toolkit.png"
+  },
+  {
+    "num": 18,
+    "title": "Automated Web Scraper & Price Tracker",
+    "url": "https://github.com/Umair104DB/Web-Scraper-Price-Tracker",
+    "desc": "Collect product prices from permitted public pages, store dated observations in SQLite, and visualize price history.",
+    "purpose": "Collect product prices from permitted public pages, store dated observations in SQLite, and visualize price history.",
+    "features": [
+      "Configure product URLs and CSS selectors",
+      "Extract product title and price",
+      "Use request timeouts and configurable delays",
+      "Store price history in SQLite",
+      "View history table and line chart in Streamlit",
+      "Export collected records to CSV",
+      "Run from CLI using JSON configuration"
+    ],
+    "workflow": "Configure product page → Fetch permitted HTML → Parse title and price → Store timestamped record → View trend and export CSV",
+    "tech": [
+      "Python",
+      "Requests",
+      "BeautifulSoup",
+      "SQLite",
+      "Pandas",
+      "Streamlit"
+    ],
+    "limitations": "Check website terms and robots.txt. This Requests-based tool may not read JavaScript-rendered prices. It does not run on a built-in background schedule.",
+    "slug": "automated-web-scraper-price-tracker",
+    "image": "assets/projects/automated-web-scraper-price-tracker.png"
+  },
+  {
+    "num": 19,
+    "title": "Ali Umair Group — Shop Management System",
+    "url": "https://github.com/Umair104DB/Ali-Umair-Group",
+    "desc": "Manage multiple shops, staff roles, stock, sales, customer khata, expenses, and daily reports from one private web application.",
+    "purpose": "Manage multiple shops, staff roles, stock, sales, customer khata, expenses, and daily reports from one private web application.",
+    "features": [
+      "Owner, manager, and worker role-based access",
+      "Create and manage multiple shop locations",
+      "Manage products, stock, and sale prices",
+      "Record cash and credit sales with stock updates",
+      "Maintain customer khata credit and payment entries",
+      "Track shop expenses and daily reports",
+      "Review activity logs",
+      "Responsive interface with Urdu layout preview",
+      "Use PKR currency"
+    ],
+    "workflow": "Sign in by role → Select authorized shop → Manage stock and customers → Record sales and expenses → Review khata and reports",
+    "tech": [
+      "Python",
+      "Flask",
+      "SQLite",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Jinja templates"
+    ],
+    "limitations": "The Urdu toggle is a layout preview, not a complete translation. Reports show sales minus expenses, not net profit. Review security and production configuration before public deployment.",
+    "slug": "ali-umair-group-shop-management-system",
+    "image": "assets/projects/ali-umair-group-shop-management-system.png"
+  }
+]

@@ -1,35 +1,33 @@
-# Muhammad Umair Akhtar | Portfolio
+# Muhammad Umair Akhtar — Portfolio Website
 
-A responsive personal portfolio website for Muhammad Umair Akhtar, BS Artificial Intelligence student at The Islamia University of Bahawalpur, also learning AI Full Stack at Nexskill, Arfa Software Technology Park, Lahore.
+A responsive multi-page developer portfolio built with HTML, CSS and vanilla JavaScript.
+
+## Features
+- Responsive dark UI with pink/orange gradient accents and subtle reveal animations.
+- Personal portrait image used as supplied; the original image file is included without facial edits.
+- Homepage sections for About, Skills, Projects, Services, Experience, Education, Resume and Contact.
+- 19 project cards, each linking to its own detail page.
+- Individual project pages include overview, features, workflow, technology stack, scope notes and GitHub link.
+- CV PDF included under `assets/`.
 
 ## Run locally
-
-Open `index.html` in a browser. No build tools or package installation are required.
+1. Extract this folder.
+2. Open `index.html` in a browser. (For best local testing, use VS Code Live Server.)
 
 ## Publish with GitHub Pages
+1. Sign in to GitHub and create a new public repository, for example `umair-portfolio`.
+2. Upload the **contents** of this folder (not the outer ZIP file) to the repository root. Keep `index.html`, `styles.css`, `script.js`, `assets/` and `projects/` at the top level.
+3. Open repository **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select branch `main` and folder `/ (root)`, then click **Save**.
+6. Wait for the Pages deployment to finish. Your site will be published at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`.
 
-1. Create a repository, for example `portfolio`.
-2. Upload `index.html`, `styles.css`, `script.js`, and this README to the repository root.
-3. Open repository Settings, then Pages.
-4. Under Build and deployment, select Deploy from a branch.
-5. Select the `main` branch and `/ (root)`, then save.
-6. After GitHub Pages finishes publishing, the site will be available at `https://umair104db.github.io/portfolio/` if the repository is named `portfolio`.
+## Update content
+- Edit homepage content in `index.html`.
+- Edit shared styling in `styles.css`.
+- Edit a project detail page in `projects/`.
+- Replace the portrait only if you choose to; its current file is `assets/umair-profile.png`.
+- Replace the CV at `assets/Muhammad_Umair_Akhtar_CV.pdf` to update the resume link.
 
-For the shorter profile URL `https://umair104db.github.io/`, create a repository named exactly `Umair104DB.github.io` if GitHub accepts the username casing, and upload the site files to its root.
-
-## Personal links
-
-- GitHub: https://github.com/Umair104DB
-- Ali Umair Group repository: https://github.com/Umair104DB/Ali-Umair-Group
-- LinkedIn: https://www.linkedin.com/in/umairakhtar1
-- Email: umair104db@gmail.com
-
-## Before publishing
-
-- Add your CV PDF and connect it to a download button.
-- Add your profile photo if you want one.
-- Replace the project profile links with exact repositories when available.
-- Add project screenshots, datasets, methods, and verified results.
-- Add your degree dates or expected graduation year when confirmed.
-
-Project summaries are intentionally limited to information supplied by the owner. No unverified metrics, certificates, employers, or achievements are claimed.
+## Notes
+This is a static portfolio. Project detail content is based on the supplied project overview Markdown files and portfolio index. Some projects may have limited documentation; their pages use the available source details without inventing extra features.
