@@ -1,10 +1,9 @@
 [
   {
-    "num": 1,
     "title": "AI Data Analyst",
-    "url": "https://github.com/Umair104DB/AI-Data-Analyst",
-    "desc": "Ask questions about uploaded CSV and Excel data in natural language and receive AI-assisted analysis.",
-    "purpose": "Ask questions about uploaded CSV and Excel data in natural language and receive AI-assisted analysis.",
+    "repo": "https://github.com/Umair104DB/AI-Data-Analyst",
+    "slug": "ai-data-analyst",
+    "description": "Ask questions about uploaded CSV and Excel data in natural language and receive AI-assisted analysis.",
     "features": [
       "Upload CSV and XLSX files",
       "Preview rows and inspect column names",
@@ -13,8 +12,8 @@
       "Use DuckDB SQL and Pandas tools through an Agno agent",
       "Display the agent response in Streamlit"
     ],
-    "workflow": "Upload dataset → Prepare data → Ask a question → AI agent uses data tools → View answer",
-    "tech": [
+    "workflow": "Upload dataset  →  Prepare data  →  Ask a question  →  AI agent uses data tools  →  View answer",
+    "technologies": [
       "Python",
       "Streamlit",
       "Pandas",
@@ -22,16 +21,28 @@
       "Agno",
       "OpenAI GPT-4o"
     ],
-    "limitations": "Requires an OpenAI API key and internet access. It performs basic preprocessing, not full data cleaning. It does not currently include a dedicated visualization dashboard, downloadable reports, or automated model training.",
-    "slug": "ai-data-analyst",
-    "image": "assets/projects/ai-data-analyst.png"
+    "scope": "Requires an OpenAI API key and internet access. It performs basic preprocessing, not full data cleaning. It does not currently include a dedicated visualization dashboard, downloadable reports, or automated model training.",
+    "why": "The supplied project notes describe this as a practical implementation of the stated goal: Ask questions about uploaded CSV and Excel data in natural language and receive AI-assisted analysis.",
+    "benefits": [
+      "Upload CSV and XLSX files",
+      "Preview rows and inspect column names",
+      "Basic type conversion and date parsing",
+      "Ask questions in natural language",
+      "Use DuckDB SQL and Pandas tools through an Agno agent"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [],
+    "image": "assets/projects/01_AI_Data_Analyst.png"
   },
   {
-    "num": 2,
     "title": "Automated File Organizer & Batch PDF Report Generator",
-    "url": "https://github.com/Umair104DB/Automated-Organizer-Reports",
-    "desc": "Sort files into extension-based folders and produce a PDF inventory report with a reversible move record.",
-    "purpose": "Sort files into extension-based folders and produce a PDF inventory report with a reversible move record.",
+    "repo": "https://github.com/Umair104DB/Automated-Organizer-Reports",
+    "slug": "automated-file-organizer-batch-pdf-report-generator",
+    "description": "Sort files into extension-based folders and produce a PDF inventory report with a reversible move record.",
     "features": [
       "Preview planned file moves with dry-run mode",
       "Categorize files by extension",
@@ -40,8 +51,8 @@
       "Save a JSON manifest for undo",
       "Generate PDF summary with category totals and file details"
     ],
-    "workflow": "Select source files → Preview organization plan → Move into categories → Save undo manifest → Generate PDF report",
-    "tech": [
+    "workflow": "Select source files  →  Preview organization plan  →  Move into categories  →  Save undo manifest  →  Generate PDF report",
+    "technologies": [
       "Python",
       "pathlib",
       "shutil",
@@ -49,16 +60,28 @@
       "Streamlit",
       "ReportLab"
     ],
-    "limitations": "Review the preview before applying file moves. Test on copies of important files first.",
-    "slug": "automated-file-organizer-batch-pdf-report-generator",
-    "image": "assets/projects/automated-file-organizer-batch-pdf-report-generator.png"
+    "scope": "Review the preview before applying file moves. Test on copies of important files first.",
+    "why": "Computers often contain hundreds or thousands of files. For example, a Downloads folder may contain: PDF documents. Word documents. Excel spreadsheets. Images. Videos. Audio files. ZIP archives. Python scripts. Finding a particular file becomes difficult when everything is stored in one folder. Organizing files manually also takes considerable time. This project automates file organization and generates PDF reports about the files processed.",
+    "benefits": [
+      "Preview planned file moves with dry-run mode",
+      "Categorize files by extension",
+      "Protect against duplicate destination names",
+      "Organize local folders through CLI or uploaded files through Streamlit",
+      "Save a JSON manifest for undo"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [],
+    "image": "assets/projects/02_Automated_Organizer_Reports.png"
   },
   {
-    "num": 3,
     "title": "Credit Scoring Machine Learning",
-    "url": "https://github.com/Umair104DB/Credit-Scoring-Model",
-    "desc": "Demonstrate an educational credit-risk classification workflow using applicant data and a Random Forest model.",
-    "purpose": "Demonstrate an educational credit-risk classification workflow using applicant data and a Random Forest model.",
+    "repo": "https://github.com/Umair104DB/Credit-Scoring-Model",
+    "slug": "credit-scoring-machine-learning",
+    "description": "Demonstrate an educational credit-risk classification workflow using applicant data and a Random Forest model.",
     "features": [
       "Inspect applicant records",
       "Prepare classification features",
@@ -67,8 +90,8 @@
       "Display a predicted risk category",
       "Explore results in a Streamlit interface"
     ],
-    "workflow": "Load applicant data → Prepare features → Train Random Forest → Evaluate model → Predict risk category",
-    "tech": [
+    "workflow": "Load applicant data  →  Prepare features  →  Train Random Forest  →  Evaluate model  →  Predict risk category",
+    "technologies": [
       "Python",
       "Pandas",
       "NumPy",
@@ -77,16 +100,30 @@
       "Streamlit",
       "Matplotlib"
     ],
-    "limitations": "Uses synthetic sample data. It is an educational demonstration and must not be used for real loan decisions or financial advice.",
-    "slug": "credit-scoring-machine-learning",
-    "image": "assets/projects/credit-scoring-machine-learning.png"
+    "scope": "Uses synthetic sample data. It is an educational demonstration and must not be used for real loan decisions or financial advice.",
+    "why": "Traditional credit evaluation can require manual analysis of financial records. Machine learning can help identify patterns in applicant information and support faster, more consistent risk assessment. Benefits and Applications Helps demonstrate automated credit risk assessment. Analyzes applicant financial information. Supports data-driven lending decisions. Demonstrates classification algorithms. Provides an interactive way to explore predictions. Who Can Benefit? Banks and financial institutions. Loan companies. FinTech developers. Financial analysts. Machine learning students. Technologies Used Python Pandas NumPy Scikit-learn Random Forest Classifier Streamlit Matplotlib",
+    "benefits": [
+      "Helps demonstrate automated credit risk assessment.",
+      "Analyzes applicant financial information.",
+      "Supports data-driven lending decisions.",
+      "Demonstrates classification algorithms.",
+      "Provides an interactive way to explore predictions."
+    ],
+    "audience": [
+      "Banks and financial institutions.",
+      "Loan companies.",
+      "FinTech developers.",
+      "Financial analysts.",
+      "Machine learning students."
+    ],
+    "applications": [],
+    "image": "assets/projects/03_Credit_Scoring_Model.png"
   },
   {
-    "num": 4,
     "title": "Customer Insight Pro",
-    "url": "https://github.com/Umair104DB/Customer-Insight-Pro",
-    "desc": "Explore customer churn patterns and estimate customer-level churn risk through an interactive dashboard.",
-    "purpose": "Explore customer churn patterns and estimate customer-level churn risk through an interactive dashboard.",
+    "repo": "https://github.com/Umair104DB/Customer-Insight-Pro",
+    "slug": "customer-insight-pro",
+    "description": "Explore customer churn patterns and estimate customer-level churn risk through an interactive dashboard.",
     "features": [
       "KPI overview and churn visualizations",
       "Interactive customer filters",
@@ -95,24 +132,36 @@
       "Held-out evaluation metrics",
       "Confusion matrix for model evaluation"
     ],
-    "workflow": "Load customer data → Explore churn KPIs → Filter customer records → Score a customer → Review evaluation metrics",
-    "tech": [
+    "workflow": "Load customer data  →  Explore churn KPIs  →  Filter customer records  →  Score a customer  →  Review evaluation metrics",
+    "technologies": [
       "Python",
       "Pandas",
       "Plotly",
       "Streamlit",
       "Scikit-learn"
     ],
-    "limitations": "The repository documents demo-data and model limitations. Risk scores are model estimates, not guarantees about an individual customer.",
-    "slug": "customer-insight-pro",
-    "image": "assets/projects/customer-insight-pro.png"
+    "scope": "The repository documents demo-data and model limitations. Risk scores are model estimates, not guarantees about an individual customer.",
+    "why": "The supplied project notes describe this as a practical implementation of the stated goal: Explore customer churn patterns and estimate customer-level churn risk through an interactive dashboard.",
+    "benefits": [
+      "KPI overview and churn visualizations",
+      "Interactive customer filters",
+      "Export filtered data to CSV",
+      "Customer-level risk scoring form",
+      "Held-out evaluation metrics"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [],
+    "image": "assets/projects/04_Customer_Insight_Pro.png"
   },
   {
-    "num": 5,
     "title": "Interactive Data Visualization Dashboard",
-    "url": "https://github.com/Umair104DB/Data-Visualization-Dashboard",
-    "desc": "Turn sales records into interactive business summaries, charts, filters, and downloadable data.",
-    "purpose": "Turn sales records into interactive business summaries, charts, filters, and downloadable data.",
+    "repo": "https://github.com/Umair104DB/Data-Visualization-Dashboard",
+    "slug": "interactive-data-visualization-dashboard",
+    "description": "Turn sales records into interactive business summaries, charts, filters, and downloadable data.",
     "features": [
       "Load included 100-row sales CSV",
       "Filter records by region",
@@ -121,23 +170,38 @@
       "View regional revenue share",
       "Explore daily revenue trends and export filtered CSV"
     ],
-    "workflow": "Load sales CSV → Choose region filter → Calculate KPIs → Explore charts → Export filtered data",
-    "tech": [
+    "workflow": "Load sales CSV  →  Choose region filter  →  Calculate KPIs  →  Explore charts  →  Export filtered data",
+    "technologies": [
       "Python",
       "Pandas",
       "Plotly Express",
       "Streamlit"
     ],
-    "limitations": "The included sales figures are illustrative sample data, not actual company performance.",
-    "slug": "interactive-data-visualization-dashboard",
-    "image": "assets/projects/interactive-data-visualization-dashboard.png"
+    "scope": "The included sales figures are illustrative sample data, not actual company performance.",
+    "why": "We developed this project to demonstrate how raw business data can be transformed into interactive visual reports. It also provides practical experience in building business intelligence dashboards. Benefits and Applications Tracks sales performance. Displays important business KPIs. Identifies sales trends. Compares product performance. Supports interactive data filtering. Provides downloadable reports. Who Can Benefit? Business owners. Sales managers. Business analysts. Marketing teams. Data visualization specialists. Technologies Used Python Pandas NumPy Plotly Streamlit",
+    "benefits": [
+      "Tracks sales performance.",
+      "Displays important business KPIs.",
+      "Identifies sales trends.",
+      "Compares product performance.",
+      "Supports interactive data filtering.",
+      "Provides downloadable reports."
+    ],
+    "audience": [
+      "Business owners.",
+      "Sales managers.",
+      "Business analysts.",
+      "Marketing teams.",
+      "Data visualization specialists."
+    ],
+    "applications": [],
+    "image": "assets/projects/05_Data_Visualization_Dashboard.png"
   },
   {
-    "num": 6,
     "title": "Disease Prediction from Medical Data",
-    "url": "https://github.com/Umair104DB/Disease-Prediction-Model",
-    "desc": "Demonstrate a machine learning classification workflow using structured sample health-related attributes.",
-    "purpose": "Demonstrate a machine learning classification workflow using structured sample health-related attributes.",
+    "repo": "https://github.com/Umair104DB/Disease-Prediction-Model",
+    "slug": "disease-prediction-from-medical-data",
+    "description": "Demonstrate a machine learning classification workflow using structured sample health-related attributes.",
     "features": [
       "Load structured sample patient data",
       "Prepare input features",
@@ -145,8 +209,8 @@
       "Explore predictions through Streamlit",
       "Review model metrics and visual summaries"
     ],
-    "workflow": "Load sample records → Prepare features → Train classifier → Evaluate results → Explore prediction",
-    "tech": [
+    "workflow": "Load sample records  →  Prepare features  →  Train classifier  →  Evaluate results  →  Explore prediction",
+    "technologies": [
       "Python",
       "Pandas",
       "NumPy",
@@ -154,16 +218,30 @@
       "Streamlit",
       "Matplotlib"
     ],
-    "limitations": "Synthetic data and predictions are educational only. This project is not suitable for diagnosis, treatment, or clinical decisions.",
-    "slug": "disease-prediction-from-medical-data",
-    "image": "assets/projects/disease-prediction-from-medical-data.png"
+    "scope": "Synthetic data and predictions are educational only. This project is not suitable for diagnosis, treatment, or clinical decisions.",
+    "why": "Medical data analysis can help researchers explore relationships between patient characteristics and health outcomes. This project demonstrates how classification algorithms can be applied to structured healthcare datasets. Benefits and Applications Demonstrates healthcare data analysis. Introduces medical classification models. Helps explore relationships between health indicators. Provides experience with predictive analytics. Supports learning about AI applications in healthcare. Who Can Benefit? Healthcare data analysts. Medical research students. Machine learning developers. Healthcare technology companies. Data science students. Technologies Used Python Pandas NumPy Scikit-learn Streamlit Matplotlib",
+    "benefits": [
+      "Demonstrates healthcare data analysis.",
+      "Introduces medical classification models.",
+      "Helps explore relationships between health indicators.",
+      "Provides experience with predictive analytics.",
+      "Supports learning about AI applications in healthcare."
+    ],
+    "audience": [
+      "Healthcare data analysts.",
+      "Medical research students.",
+      "Machine learning developers.",
+      "Healthcare technology companies.",
+      "Data science students."
+    ],
+    "applications": [],
+    "image": "assets/projects/06_Disease_Prediction_Model.png"
   },
   {
-    "num": 7,
     "title": "Handwritten Digit Recognition",
-    "url": "https://github.com/Umair104DB/Handwritten-Character-Recognition",
-    "desc": "Classify handwritten digits from image pixel features using a Scikit-learn neural-network classifier.",
-    "purpose": "Classify handwritten digits from image pixel features using a Scikit-learn neural-network classifier.",
+    "repo": "https://github.com/Umair104DB/Handwritten-Character-Recognition",
+    "slug": "handwritten-digit-recognition",
+    "description": "Classify handwritten digits from image pixel features using a Scikit-learn neural-network classifier.",
     "features": [
       "Load grayscale handwritten digit samples",
       "Convert image pixels into numerical feature vectors",
@@ -171,8 +249,8 @@
       "Evaluate model predictions",
       "Display sample digit images and results"
     ],
-    "workflow": "Load digit images → Flatten pixel values → Train MLP classifier → Evaluate predictions → Display digit results",
-    "tech": [
+    "workflow": "Load digit images  →  Flatten pixel values  →  Train MLP classifier  →  Evaluate predictions  →  Display digit results",
+    "technologies": [
       "Python",
       "NumPy",
       "Pandas",
@@ -181,16 +259,30 @@
       "Matplotlib",
       "Streamlit"
     ],
-    "limitations": "The included Scikit-learn digits dataset uses 8×8 images of digits 0 to 9. It is not full alphabet recognition or production OCR.",
-    "slug": "handwritten-digit-recognition",
-    "image": "assets/projects/handwritten-digit-recognition.png"
+    "scope": "The included Scikit-learn digits dataset uses 8×8 images of digits 0 to 9. It is not full alphabet recognition or production OCR.",
+    "why": "Manual reading and processing of handwritten information can be time-consuming. Automated recognition systems can help reduce repetitive data entry and support document digitization. Benefits and Applications Demonstrates image classification. Introduces neural network concepts. Supports automated digit recognition. Provides experience with image datasets. Builds a foundation for OCR applications. Who Can Benefit? Banking institutions. Educational institutions. Document processing companies. Computer vision developers. Machine learning students. Technologies Used Python NumPy Pandas Scikit-learn MLPClassifier Streamlit Matplotlib",
+    "benefits": [
+      "Demonstrates image classification.",
+      "Introduces neural network concepts.",
+      "Supports automated digit recognition.",
+      "Provides experience with image datasets.",
+      "Builds a foundation for OCR applications."
+    ],
+    "audience": [
+      "Banking institutions.",
+      "Educational institutions.",
+      "Document processing companies.",
+      "Computer vision developers.",
+      "Machine learning students."
+    ],
+    "applications": [],
+    "image": "assets/projects/07_Handwritten_Character_Recognition.png"
   },
   {
-    "num": 8,
     "title": "NLP Sentiment Analysis",
-    "url": "https://github.com/Umair104DB/NLP-Sentiment-Analysis",
-    "desc": "Classify text reviews into sentiment labels using TF-IDF features and Logistic Regression.",
-    "purpose": "Classify text reviews into sentiment labels using TF-IDF features and Logistic Regression.",
+    "repo": "https://github.com/Umair104DB/NLP-Sentiment-Analysis",
+    "slug": "nlp-sentiment-analysis",
+    "description": "Classify text reviews into sentiment labels using TF-IDF features and Logistic Regression.",
     "features": [
       "Load labelled review examples",
       "Convert text into TF-IDF features",
@@ -199,8 +291,8 @@
       "Predict sentiment for entered text",
       "Display classification report and test accuracy"
     ],
-    "workflow": "Load labelled reviews → Vectorize text → Train classifier → Evaluate model → Predict new review",
-    "tech": [
+    "workflow": "Load labelled reviews  →  Vectorize text  →  Train classifier  →  Evaluate model  →  Predict new review",
+    "technologies": [
       "Python",
       "Pandas",
       "Scikit-learn",
@@ -209,16 +301,32 @@
       "Streamlit",
       "Plotly"
     ],
-    "limitations": "The repository uses short synthetic review examples. Results should not be treated as representative public opinion.",
-    "slug": "nlp-sentiment-analysis",
-    "image": "assets/projects/nlp-sentiment-analysis.png"
+    "scope": "The repository uses short synthetic review examples. Results should not be treated as representative public opinion.",
+    "why": "We developed this project to explore how Natural Language Processing can extract useful information from written feedback and help businesses understand customer opinions. Benefits and Applications Analyzes customer feedback. Classifies positive and negative opinions. Identifies neutral reviews. Supports customer satisfaction analysis. Demonstrates text classification. Introduces practical NLP techniques. Who Can Benefit? E-commerce businesses. Customer support teams. Marketing departments. Social media analysts. NLP developers. Data science students. Technologies Used Python Pandas NumPy Scikit-learn TF-IDF Logistic Regression Streamlit",
+    "benefits": [
+      "Analyzes customer feedback.",
+      "Classifies positive and negative opinions.",
+      "Identifies neutral reviews.",
+      "Supports customer satisfaction analysis.",
+      "Demonstrates text classification.",
+      "Introduces practical NLP techniques."
+    ],
+    "audience": [
+      "E-commerce businesses.",
+      "Customer support teams.",
+      "Marketing departments.",
+      "Social media analysts.",
+      "NLP developers.",
+      "Data science students."
+    ],
+    "applications": [],
+    "image": "assets/projects/08_NLP_Sentiment_Analysis.png"
   },
   {
-    "num": 9,
     "title": "Personal Expense & Budget Management App",
-    "url": "https://github.com/Umair104DB/Personal-Expense-Budget-Manager",
-    "desc": "Record personal income and expenses, set monthly category budgets, and review balances in a Flask web app.",
-    "purpose": "Record personal income and expenses, set monthly category budgets, and review balances in a Flask web app.",
+    "repo": "https://github.com/Umair104DB/Personal-Expense-Budget-Manager",
+    "slug": "personal-expense-budget-management-app",
+    "description": "Record personal income and expenses, set monthly category budgets, and review balances in a Flask web app.",
     "features": [
       "Add income and expense transactions",
       "Assign category, date, and optional description",
@@ -228,24 +336,43 @@
       "Export transactions to CSV",
       "Store records with SQLAlchemy and SQLite by default"
     ],
-    "workflow": "Record transaction → Save to database → Set monthly budgets → Review monthly balance → Export CSV",
-    "tech": [
+    "workflow": "Record transaction  →  Save to database  →  Set monthly budgets  →  Review monthly balance  →  Export CSV",
+    "technologies": [
       "Python",
       "Flask",
       "Flask-SQLAlchemy",
       "SQLite",
       "PostgreSQL-compatible configuration"
     ],
-    "limitations": "The current app has no login or user-level data separation. Add authentication, CSRF protection, secure configuration, and persistent backups before using real sensitive financial data.",
-    "slug": "personal-expense-budget-management-app",
-    "image": "assets/projects/personal-expense-budget-management-app.png"
+    "scope": "The current app has no login or user-level data separation. Add authentication, CSRF protection, secure configuration, and persistent backups before using real sensitive financial data.",
+    "why": "People receive income and spend money on different activities every day. For example: Food and groceries. Transportation. Education. Electricity and utility bills. Shopping. Medical expenses. Rent and other payments. Many people do not maintain accurate records of their daily spending. This makes it difficult to understand where their money goes and how much they save each month. This project provides a centralized system for managing financial transactions and monitoring monthly budgets.",
+    "benefits": [
+      "Add income and expense transactions",
+      "Assign category, date, and optional description",
+      "Create or update monthly category budgets",
+      "View monthly income, expenses, and remaining balance",
+      "Delete transaction records"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [
+      "Personal financial management.",
+      "Monthly expense tracking.",
+      "Household budget planning.",
+      "Income and expenditure reporting.",
+      "Financial record management.",
+      "Basic savings planning."
+    ],
+    "image": "assets/projects/09_Personal_Expense_Budget_Manager.png"
   },
   {
-    "num": 10,
     "title": "Basic Rule-Based Chatbot",
-    "url": "https://github.com/Umair104DB/Python-Chatbot",
-    "desc": "Create a simple command-line chatbot that matches user messages to predefined rules and returns conversational replies.",
-    "purpose": "Create a simple command-line chatbot that matches user messages to predefined rules and returns conversational replies.",
+    "repo": "https://github.com/Umair104DB/Python-Chatbot",
+    "slug": "basic-rule-based-chatbot",
+    "description": "Create a simple command-line chatbot that matches user messages to predefined rules and returns conversational replies.",
     "features": [
       "Accept text messages",
       "Normalize user input",
@@ -254,8 +381,8 @@
       "Provide a fallback response",
       "Continue conversation until exit"
     ],
-    "workflow": "Enter message → Normalize text → Match a rule → Return response → Continue or exit",
-    "tech": [
+    "workflow": "Enter message  →  Normalize text  →  Match a rule  →  Return response  →  Continue or exit",
+    "technologies": [
       "Python",
       "Functions",
       "Conditionals",
@@ -263,16 +390,31 @@
       "String processing",
       "Console I/O"
     ],
-    "limitations": "This is a rule-based chatbot. It does not use an LLM or generate open-ended AI responses.",
-    "slug": "basic-rule-based-chatbot",
-    "image": "assets/projects/basic-rule-based-chatbot.png"
+    "scope": "This is a rule-based chatbot. It does not use an LLM or generate open-ended AI responses.",
+    "why": "We developed this project to understand how conversational systems work and how Python can be used to build interactive applications. It also provides a foundation for learning more advanced AI chatbot technologies. Benefits and Applications Demonstrates conversational logic. Automates basic predefined responses. Introduces chatbot development. Practices conditional statements. Improves understanding of functions and loops. Provides a foundation for advanced AI chatbots. Who Can Benefit? Python beginners. Customer support developers. Programming students. Chatbot developers. AI and NLP learners. Technologies Used Python Functions Conditional Statements Loops String Processing Console Input/Output",
+    "benefits": [
+      "Demonstrates conversational logic.",
+      "Automates basic predefined responses.",
+      "Introduces chatbot development.",
+      "Practices conditional statements.",
+      "Improves understanding of functions and loops.",
+      "Provides a foundation for advanced AI chatbots."
+    ],
+    "audience": [
+      "Python beginners.",
+      "Customer support developers.",
+      "Programming students.",
+      "Chatbot developers.",
+      "AI and NLP learners."
+    ],
+    "applications": [],
+    "image": "assets/projects/10_Python_Chatbot.png"
   },
   {
-    "num": 11,
     "title": "Exploratory Data Analysis Dashboard",
-    "url": "https://github.com/Umair104DB/Python-Exploratory-Data-Analysis",
-    "desc": "Inspect uploaded tabular data, summarize columns, check data quality, and explore distributions and correlations.",
-    "purpose": "Inspect uploaded tabular data, summarize columns, check data quality, and explore distributions and correlations.",
+    "repo": "https://github.com/Umair104DB/Python-Exploratory-Data-Analysis",
+    "slug": "exploratory-data-analysis-dashboard",
+    "description": "Inspect uploaded tabular data, summarize columns, check data quality, and explore distributions and correlations.",
     "features": [
       "Upload a CSV dataset",
       "Inspect dataset shape, columns, and data types",
@@ -281,8 +423,8 @@
       "Explore distributions and correlations",
       "Display analysis in a Streamlit dashboard"
     ],
-    "workflow": "Upload CSV → Inspect structure → Check data quality → Review statistics → Explore charts",
-    "tech": [
+    "workflow": "Upload CSV  →  Inspect structure  →  Check data quality  →  Review statistics  →  Explore charts",
+    "technologies": [
       "Python",
       "Pandas",
       "NumPy",
@@ -290,16 +432,31 @@
       "Seaborn",
       "Streamlit"
     ],
-    "limitations": "Analysis depends on the quality and representativeness of the uploaded dataset. Correlation does not establish causation.",
-    "slug": "exploratory-data-analysis-dashboard",
-    "image": "assets/projects/exploratory-data-analysis-dashboard.png"
+    "scope": "Analysis depends on the quality and representativeness of the uploaded dataset. Correlation does not establish causation.",
+    "why": "Raw datasets are often difficult to understand without proper analysis. We developed this project to demonstrate how Python can transform raw data into meaningful insights before further analysis or machine learning development. Benefits and Applications Identifies missing values. Detects duplicate records. Generates descriptive statistics. Explores data distributions. Identifies correlations. Helps prepare datasets for machine learning. Who Can Benefit? Data analysts. Data scientists. Business analysts. Machine learning developers. Research students. Technologies Used Python Pandas NumPy Matplotlib Seaborn Streamlit",
+    "benefits": [
+      "Identifies missing values.",
+      "Detects duplicate records.",
+      "Generates descriptive statistics.",
+      "Explores data distributions.",
+      "Identifies correlations.",
+      "Helps prepare datasets for machine learning."
+    ],
+    "audience": [
+      "Data analysts.",
+      "Data scientists.",
+      "Business analysts.",
+      "Machine learning developers.",
+      "Research students."
+    ],
+    "applications": [],
+    "image": "assets/projects/11_Python_Exploratory_Data_Analysis.png"
   },
   {
-    "num": 12,
     "title": "Python Hangman Game",
-    "url": "https://github.com/Umair104DB/Python-Hangman-Game",
-    "desc": "Build a command-line word guessing game to practise Python fundamentals and input handling.",
-    "purpose": "Build a command-line word guessing game to practise Python fundamentals and input handling.",
+    "repo": "https://github.com/Umair104DB/Python-Hangman-Game",
+    "slug": "python-hangman-game",
+    "description": "Build a command-line word guessing game to practise Python fundamentals and input handling.",
     "features": [
       "Select a random word",
       "Display hidden letters",
@@ -308,8 +465,8 @@
       "Reveal correctly guessed letters",
       "Detect win and loss conditions"
     ],
-    "workflow": "Choose random word → Show hidden letters → Enter a guess → Update game state → Win or lose",
-    "tech": [
+    "workflow": "Choose random word  →  Show hidden letters  →  Enter a guess  →  Update game state  →  Win or lose",
+    "technologies": [
       "Python",
       "random module",
       "Functions",
@@ -317,16 +474,29 @@
       "Conditional logic",
       "String handling"
     ],
-    "limitations": "The game uses a predefined word list unless the source is extended with additional word sources or difficulty options.",
-    "slug": "python-hangman-game",
-    "image": "assets/projects/python-hangman-game.png"
+    "scope": "The game uses a predefined word list unless the source is extended with additional word sources or difficulty options.",
+    "why": "We developed this project to strengthen our understanding of basic programming logic and learn how to create interactive applications using Python. Benefits and Applications Improves logical thinking. Demonstrates conditional statements. Introduces loops and functions. Practices string manipulation. Provides experience with user input validation. Who Can Benefit? Python beginners. Programming students. Computer science learners. Beginners practicing problem-solving. Technologies Used Python Random Module String Manipulation Conditional Statements Loops Functions",
+    "benefits": [
+      "Improves logical thinking.",
+      "Demonstrates conditional statements.",
+      "Introduces loops and functions.",
+      "Practices string manipulation.",
+      "Provides experience with user input validation."
+    ],
+    "audience": [
+      "Python beginners.",
+      "Programming students.",
+      "Computer science learners.",
+      "Beginners practicing problem-solving."
+    ],
+    "applications": [],
+    "image": "assets/projects/12_Python_Hangman_Game.png"
   },
   {
-    "num": 13,
     "title": "Web Scraping with Python and BeautifulSoup",
-    "url": "https://github.com/Umair104DB/Python-Web-Scraping-Beautifulsoup",
-    "desc": "Retrieve permitted public webpage HTML and extract structured information such as headings and links.",
-    "purpose": "Retrieve permitted public webpage HTML and extract structured information such as headings and links.",
+    "repo": "https://github.com/Umair104DB/Python-Web-Scraping-Beautifulsoup",
+    "slug": "web-scraping-with-python-and-beautifulsoup",
+    "description": "Retrieve permitted public webpage HTML and extract structured information such as headings and links.",
     "features": [
       "Accept a webpage URL",
       "Send an HTTP request with Requests",
@@ -334,24 +504,38 @@
       "Extract headings and links",
       "Display or export collected information"
     ],
-    "workflow": "Enter public URL → Fetch HTML → Parse document → Extract headings and links → Review results",
-    "tech": [
+    "workflow": "Enter public URL  →  Fetch HTML  →  Parse document  →  Extract headings and links  →  Review results",
+    "technologies": [
       "Python",
       "Requests",
       "BeautifulSoup",
       "Pandas",
       "Streamlit"
     ],
-    "limitations": "Scrape only pages where automated access is permitted. Respect terms of service, robots.txt, rate limits, copyright, and privacy requirements.",
-    "slug": "web-scraping-with-python-and-beautifulsoup",
-    "image": "assets/projects/web-scraping-with-python-and-beautifulsoup.png"
+    "scope": "Scrape only pages where automated access is permitted. Respect terms of service, robots.txt, rate limits, copyright, and privacy requirements.",
+    "why": "We developed this project to understand how websites can be accessed, how HTML content can be analyzed and how useful information can be extracted automatically. Benefits and Applications Automates basic data collection. Extracts website headings and links. Reduces manual research work. Supports website content analysis. Helps organize collected information. Who Can Benefit? Digital marketing agencies. Market researchers. Data analysts. E-commerce businesses. Python developers. Technologies Used Python Requests BeautifulSoup Pandas Streamlit",
+    "benefits": [
+      "Automates basic data collection.",
+      "Extracts website headings and links.",
+      "Reduces manual research work.",
+      "Supports website content analysis.",
+      "Helps organize collected information."
+    ],
+    "audience": [
+      "Digital marketing agencies.",
+      "Market researchers.",
+      "Data analysts.",
+      "E-commerce businesses.",
+      "Python developers."
+    ],
+    "applications": [],
+    "image": "assets/projects/13_Python_Web_Scraping_Beautifulsoup.png"
   },
   {
-    "num": 14,
     "title": "Spam Message Guard",
-    "url": "https://github.com/Umair104DB/Spam-Message-Filter",
-    "desc": "Classify text messages as spam or genuine using TF-IDF text features and a Multinomial Naive Bayes model.",
-    "purpose": "Classify text messages as spam or genuine using TF-IDF text features and a Multinomial Naive Bayes model.",
+    "repo": "https://github.com/Umair104DB/Spam-Message-Filter",
+    "slug": "spam-message-guard",
+    "description": "Classify text messages as spam or genuine using TF-IDF text features and a Multinomial Naive Bayes model.",
     "features": [
       "Interactive message tester",
       "Filter and inspect dataset records",
@@ -360,8 +544,8 @@
       "Download test predictions",
       "Present model limitations and safety guidance"
     ],
-    "workflow": "Load labelled messages → Vectorize text → Train Naive Bayes → Evaluate classifier → Test a new message",
-    "tech": [
+    "workflow": "Load labelled messages  →  Vectorize text  →  Train Naive Bayes  →  Evaluate classifier  →  Test a new message",
+    "technologies": [
       "Python",
       "Pandas",
       "Scikit-learn",
@@ -370,24 +554,36 @@
       "Plotly",
       "Streamlit"
     ],
-    "limitations": "This is a demonstration classifier. Do not rely on it as the only control for security-sensitive message filtering.",
-    "slug": "spam-message-guard",
-    "image": "assets/projects/spam-message-guard.png"
+    "scope": "This is a demonstration classifier. Do not rely on it as the only control for security-sensitive message filtering.",
+    "why": "The supplied project notes describe this as a practical implementation of the stated goal: Classify text messages as spam or genuine using TF-IDF text features and a Multinomial Naive Bayes model.",
+    "benefits": [
+      "Interactive message tester",
+      "Filter and inspect dataset records",
+      "Show evaluation metrics and confusion matrix",
+      "Export dataset records to CSV",
+      "Download test predictions"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [],
+    "image": "assets/projects/14_Spam_Message_Filter.png"
   },
   {
-    "num": 15,
     "title": "Speech Emotion Recognition",
-    "url": "https://github.com/Umair104DB/Speech-Emotion-Recognition",
-    "desc": "Explore audio feature processing for emotion-classification experiments using numerical speech features.",
-    "purpose": "Explore audio feature processing for emotion-classification experiments using numerical speech features.",
+    "repo": "https://github.com/Umair104DB/Speech-Emotion-Recognition",
+    "slug": "speech-emotion-recognition",
+    "description": "Explore audio feature processing for emotion-classification experiments using numerical speech features.",
     "features": [
       "Explore speech audio features",
       "Use MFCC-style numerical features where implemented",
       "Prepare feature vectors for classification",
       "Display demonstration analysis or classifier output"
     ],
-    "workflow": "Prepare audio features → Extract numerical values → Build feature vectors → Run demonstration analysis → Review output",
-    "tech": [
+    "workflow": "Prepare audio features  →  Extract numerical values  →  Build feature vectors  →  Run demonstration analysis  →  Review output",
+    "technologies": [
       "Python",
       "Librosa",
       "NumPy",
@@ -396,16 +592,30 @@
       "MFCC",
       "Streamlit"
     ],
-    "limitations": "The repository describes illustrative feature rows. Reliable emotion recognition requires real labelled audio, careful validation, and attention to speaker and recording differences.",
-    "slug": "speech-emotion-recognition",
-    "image": "assets/projects/speech-emotion-recognition.png"
+    "scope": "The repository describes illustrative feature rows. Reliable emotion recognition requires real labelled audio, careful validation, and attention to speaker and recording differences.",
+    "why": "Understanding emotional patterns in speech can help develop more interactive and responsive voice-based applications. This project demonstrates how audio processing and machine learning techniques can be combined. Benefits and Applications Demonstrates audio signal processing. Introduces speech feature extraction. Explores emotion classification. Supports research into human-computer interaction. Provides a foundation for voice-based AI applications. Who Can Benefit? AI and machine learning developers. Speech processing researchers. Call center technology developers. Voice assistant developers. Students studying audio analytics. Technologies Used Python Librosa NumPy Pandas Scikit-learn MFCC Streamlit",
+    "benefits": [
+      "Demonstrates audio signal processing.",
+      "Introduces speech feature extraction.",
+      "Explores emotion classification.",
+      "Supports research into human-computer interaction.",
+      "Provides a foundation for voice-based AI applications."
+    ],
+    "audience": [
+      "AI and machine learning developers.",
+      "Speech processing researchers.",
+      "Call center technology developers.",
+      "Voice assistant developers.",
+      "Students studying audio analytics."
+    ],
+    "applications": [],
+    "image": "assets/projects/15_Speech_Emotion_Recognition.png"
   },
   {
-    "num": 16,
     "title": "Stock Portfolio Tracker",
-    "url": "https://github.com/Umair104DB/Stock-Portfolio-Tracker",
-    "desc": "Calculate estimated holding values and total portfolio value from symbols, quantities, and CSV reference prices.",
-    "purpose": "Calculate estimated holding values and total portfolio value from symbols, quantities, and CSV reference prices.",
+    "repo": "https://github.com/Umair104DB/Stock-Portfolio-Tracker",
+    "slug": "stock-portfolio-tracker",
+    "description": "Calculate estimated holding values and total portfolio value from symbols, quantities, and CSV reference prices.",
     "features": [
       "Read sample stock prices from CSV",
       "Enter stock symbols and quantities",
@@ -414,24 +624,38 @@
       "Calculate total portfolio value",
       "Validate entered symbols and quantities"
     ],
-    "workflow": "Load price CSV → Enter holdings → Match symbols → Calculate holding values → Sum portfolio value",
-    "tech": [
+    "workflow": "Load price CSV  →  Enter holdings  →  Match symbols  →  Calculate holding values  →  Sum portfolio value",
+    "technologies": [
       "Python",
       "CSV",
       "Dictionaries",
       "Functions",
       "Input validation"
     ],
-    "limitations": "Prices are static sample values unless a live market data provider is integrated. This is not investment advice or live market data.",
-    "slug": "stock-portfolio-tracker",
-    "image": "assets/projects/stock-portfolio-tracker.png"
+    "scope": "Prices are static sample values unless a live market data provider is integrated. This is not investment advice or live market data.",
+    "why": "We developed this project to practice Python data structures, CSV file handling, financial calculations and input validation. Benefits and Applications Calculates total portfolio value. Organizes stock holdings. Reads stock reference prices from CSV. Reduces manual calculation. Demonstrates financial data processing. Who Can Benefit? Beginner investors. Finance students. Python developers. Financial analytics learners. Students learning CSV processing. Technologies Used Python CSV Module Dictionaries Functions Input Validation",
+    "benefits": [
+      "Calculates total portfolio value.",
+      "Organizes stock holdings.",
+      "Reads stock reference prices from CSV.",
+      "Reduces manual calculation.",
+      "Demonstrates financial data processing."
+    ],
+    "audience": [
+      "Beginner investors.",
+      "Finance students.",
+      "Python developers.",
+      "Financial analytics learners.",
+      "Students learning CSV processing."
+    ],
+    "applications": [],
+    "image": "assets/projects/16_Stock_Portfolio_Tracker.png"
   },
   {
-    "num": 17,
     "title": "Python Task Automation Toolkit",
-    "url": "https://github.com/Umair104DB/Task-Automation-Tools",
-    "desc": "Bundle small Python utilities for organizing image files, extracting email-like strings, and saving webpage titles.",
-    "purpose": "Bundle small Python utilities for organizing image files, extracting email-like strings, and saving webpage titles.",
+    "repo": "https://github.com/Umair104DB/Task-Automation-Tools",
+    "slug": "python-task-automation-toolkit",
+    "description": "Bundle small Python utilities for organizing image files, extracting email-like strings, and saving webpage titles.",
     "features": [
       "Move JPG and JPEG files into an organized folder",
       "Skip duplicate destination filenames",
@@ -440,8 +664,8 @@
       "Fetch a public webpage and save its title",
       "Handle common file and request errors"
     ],
-    "workflow": "Choose a utility → Provide input → Process files or webpage → Save output → Review result",
-    "tech": [
+    "workflow": "Choose a utility  →  Provide input  →  Process files or webpage  →  Save output  →  Review result",
+    "technologies": [
       "Python",
       "pathlib",
       "os",
@@ -450,16 +674,32 @@
       "Requests",
       "BeautifulSoup"
     ],
-    "limitations": "Test file operations on copies. Extracted email-like strings are not verified addresses or consent to contact. Respect website access rules.",
-    "slug": "python-task-automation-toolkit",
-    "image": "assets/projects/python-task-automation-toolkit.png"
+    "scope": "Test file operations on copies. Extracted email-like strings are not verified addresses or consent to contact. Respect website access rules.",
+    "why": "We developed this project to understand how Python can interact with files, directories and web resources to reduce repetitive manual work. Benefits and Applications Automates file organization. Extracts email addresses from text files. Retrieves webpage titles. Reduces repetitive manual activities. Improves productivity. Demonstrates practical scripting skills. Who Can Benefit? Office administrators. Business professionals. Students. Data entry operators. Python automation developers. Small businesses. Technologies Used Python OS Module Shutil Module Regular Expressions Requests BeautifulSoup",
+    "benefits": [
+      "Automates file organization.",
+      "Extracts email addresses from text files.",
+      "Retrieves webpage titles.",
+      "Reduces repetitive manual activities.",
+      "Improves productivity.",
+      "Demonstrates practical scripting skills."
+    ],
+    "audience": [
+      "Office administrators.",
+      "Business professionals.",
+      "Students.",
+      "Data entry operators.",
+      "Python automation developers.",
+      "Small businesses."
+    ],
+    "applications": [],
+    "image": "assets/projects/17_Task_Automation_Tools.png"
   },
   {
-    "num": 18,
     "title": "Automated Web Scraper & Price Tracker",
-    "url": "https://github.com/Umair104DB/Web-Scraper-Price-Tracker",
-    "desc": "Collect product prices from permitted public pages, store dated observations in SQLite, and visualize price history.",
-    "purpose": "Collect product prices from permitted public pages, store dated observations in SQLite, and visualize price history.",
+    "repo": "https://github.com/Umair104DB/Web-Scraper-Price-Tracker",
+    "slug": "automated-web-scraper-price-tracker",
+    "description": "Collect product prices from permitted public pages, store dated observations in SQLite, and visualize price history.",
     "features": [
       "Configure product URLs and CSS selectors",
       "Extract product title and price",
@@ -469,8 +709,8 @@
       "Export collected records to CSV",
       "Run from CLI using JSON configuration"
     ],
-    "workflow": "Configure product page → Fetch permitted HTML → Parse title and price → Store timestamped record → View trend and export CSV",
-    "tech": [
+    "workflow": "Configure product page  →  Fetch permitted HTML  →  Parse title and price  →  Store timestamped record  →  View trend and export CSV",
+    "technologies": [
       "Python",
       "Requests",
       "BeautifulSoup",
@@ -478,16 +718,28 @@
       "Pandas",
       "Streamlit"
     ],
-    "limitations": "Check website terms and robots.txt. This Requests-based tool may not read JavaScript-rendered prices. It does not run on a built-in background schedule.",
-    "slug": "automated-web-scraper-price-tracker",
-    "image": "assets/projects/automated-web-scraper-price-tracker.png"
+    "scope": "Check website terms and robots.txt. This Requests-based tool may not read JavaScript-rendered prices. It does not run on a built-in background schedule.",
+    "why": "Online shopping websites contain thousands of products with changing prices. Customers and businesses often need to compare prices across different products and monitor price changes over time. Checking every product manually takes time. For example: Suppose a customer wants to purchase a laptop. Monday: Laptop price is $800. Wednesday: Laptop price is $780. Friday: Laptop price is $750. A price tracker can collect these prices and maintain a historical record. This project automates the process of collecting product information and recording price changes.",
+    "benefits": [
+      "Configure product URLs and CSS selectors",
+      "Extract product title and price",
+      "Use request timeouts and configurable delays",
+      "Store price history in SQLite",
+      "View history table and line chart in Streamlit"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [],
+    "image": "assets/projects/18_Web_Scraper_Price_Tracker.png"
   },
   {
-    "num": 19,
-    "title": "Ali Umair Group — Shop Management System",
-    "url": "https://github.com/Umair104DB/Ali-Umair-Group",
-    "desc": "Manage multiple shops, staff roles, stock, sales, customer khata, expenses, and daily reports from one private web application.",
-    "purpose": "Manage multiple shops, staff roles, stock, sales, customer khata, expenses, and daily reports from one private web application.",
+    "title": "Ali Umair Group | Shop Management System",
+    "repo": "https://github.com/Umair104DB/Ali-Umair-Group",
+    "slug": "ali-umair-group-shop-management-system",
+    "description": "Manage multiple shops, staff roles, stock, sales, customer khata, expenses, and daily reports from one private web application.",
     "features": [
       "Owner, manager, and worker role-based access",
       "Create and manage multiple shop locations",
@@ -499,8 +751,8 @@
       "Responsive interface with Urdu layout preview",
       "Use PKR currency"
     ],
-    "workflow": "Sign in by role → Select authorized shop → Manage stock and customers → Record sales and expenses → Review khata and reports",
-    "tech": [
+    "workflow": "Sign in by role  →  Select authorized shop  →  Manage stock and customers  →  Record sales and expenses  →  Review khata and reports",
+    "technologies": [
       "Python",
       "Flask",
       "SQLite",
@@ -509,8 +761,21 @@
       "JavaScript",
       "Jinja templates"
     ],
-    "limitations": "The Urdu toggle is a layout preview, not a complete translation. Reports show sales minus expenses, not net profit. Review security and production configuration before public deployment.",
-    "slug": "ali-umair-group-shop-management-system",
-    "image": "assets/projects/ali-umair-group-shop-management-system.png"
+    "scope": "The Urdu toggle is a layout preview, not a complete translation. Reports show sales minus expenses, not net profit. Review security and production configuration before public deployment.",
+    "why": "The supplied project notes describe this as a practical implementation of the stated goal: Manage multiple shops, staff roles, stock, sales, customer khata, expenses, and daily reports from one private web application.",
+    "benefits": [
+      "Owner, manager, and worker role-based access",
+      "Create and manage multiple shop locations",
+      "Manage products, stock, and sale prices",
+      "Record cash and credit sales with stock updates",
+      "Maintain customer khata credit and payment entries"
+    ],
+    "audience": [
+      "Learners and developers exploring Python",
+      "Students practising applied programming and problem-solving",
+      "Teams or professionals whose work relates to the project's stated use case"
+    ],
+    "applications": [],
+    "image": "assets/projects/19_Ali_Umair_Group.png"
   }
 ]
